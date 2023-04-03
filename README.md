@@ -14,21 +14,10 @@ terms of the license, as specified in the document LICENSE.txt
 (included in this package) 
 
 ## Installation
-The code requires Python 3.x and Tensorflow 1.2.1 .
-
-To install Python 3.x for Ubuntu, you can run:
-
+The code requires Python 3.5 and Tensorflow 1.2.1 .
+In order to install everything that is needed, create a conda environment through the following command:
 ```
-apt-get update
-apt-get install -y python3.5 python3.5-dev python3-pip python3-venv
-```
-
-We recommend to use a virtual environment: 
-
-```
-python3.5 -m venv ../venv
-source ../venv/bin/activate
-pip install --upgrade pip
+conda create -n noiseprint python=3.5 pip
 ```
 
 ### Installation with GPU
