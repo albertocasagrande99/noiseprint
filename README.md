@@ -15,9 +15,10 @@ terms of the license, as specified in the document LICENSE.txt
 
 ## Installation
 The code requires Python 3.5 and Tensorflow 1.2.1 .
-In order to install everything that is needed, create a conda environment through the following command:
+In order to install everything that is needed, create and activate a conda environment through the following command:
 ```
 conda create -n noiseprint python=3.5 pip
+conda activate noiseprint
 ```
 
 ### Installation with GPU
