@@ -13,7 +13,8 @@
 # (included in this package) and online at
 # http://www.grip.unina.it/download/LICENSE_OPEN.txt
 #
-
+import matplotlib
+matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
 import numpy as np
 from sys import argv
